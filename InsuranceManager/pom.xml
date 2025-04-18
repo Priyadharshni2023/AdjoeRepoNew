@@ -68,7 +68,11 @@
             <version>4.1.2</version>
         </dependency>
 
-
+        <dependency>
+            <groupId>ch.qos.logback</groupId>
+            <artifactId>logback-classic</artifactId>
+            <version>1.4.14</version> <!-- use latest compatible version -->
+        </dependency>
         <dependency>
             <groupId>org.apache.poi</groupId>
             <artifactId>openxml4j</artifactId>
