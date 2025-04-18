@@ -21,8 +21,6 @@
             <artifactId>selenium-java</artifactId>
             <version>4.19.1</version>
         </dependency>
-
-
         <!-- https://mvnrepository.com/artifact/org.apache.poi/poi-ooxml -->
         <dependency>
             <groupId>org.apache.poi</groupId>
