@@ -18,7 +18,7 @@ public class TestSuite extends TestBase {
     }
 
     @BeforeMethod
-    public void setup() throws InterruptedException {
+    public void setup() {
         initialization();
         LoginPage loginPageObject = new LoginPage();
         loginPageObject.login(prop.getProperty("username"),prop.getProperty("password"));
